@@ -6,14 +6,14 @@
  * Time: 17:15
  */
 
-const TOKEN = '724544065:AAHZ_sy3gAauP-TNFiZvI1_CUawGo4lXDlY';
+const TOKEN = 'your token';
 
 $method = 'setWebhook';
 
 $url = 'https://api.telegram.org/bot'. TOKEN . '/' .$method;
 
 $options = [
-    'url' => 'https://rashidisayev.com/bot/index.php'
+    'url' => 'https://hook'
 ];
 
 $response = file_get_contents($url.'?'.http_build_query($options));
