@@ -10,7 +10,7 @@
 //file_put_contents(__DIR__.'/bot/log.txt',file_get_contents('php://input'));
 session_start();
 
-const TOKEN = '724544065:AAHZ_sy3gAauP-TNFiZvI1_CUawGo4lXDlY';
+const TOKEN = 'your token';
 
 const BASE_URL = 'https://api.telegram.org/bot'. TOKEN . '/';
 
@@ -34,7 +34,7 @@ function sendRequest($method,$params = [])
 }
 
 
-            $a = ['Салех Пидор', 'Фарид Пидор'];
+            $a = ['Pider name', 'Pider name'];
             $name = $a[mt_rand(0, count($a) - 1)];
 
 
