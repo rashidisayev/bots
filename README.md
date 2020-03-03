@@ -1,3 +1,3 @@
-# Telegram Pider bot
+# Telegram bot
 
 just copy and use it
